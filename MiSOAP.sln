@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiSOAP", "MiSOAP.csproj", "{173C714F-CECB-4D94-AB47-56AFFC22D3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "..\Cliente\Cliente.csproj", "{6C06DD1C-3696-4529-B1CF-E15996709DE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{173C714F-CECB-4D94-AB47-56AFFC22D3EE} = {173C714F-CECB-4D94-AB47-56AFFC22D3EE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173C714F-CECB-4D94-AB47-56AFFC22D3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173C714F-CECB-4D94-AB47-56AFFC22D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173C714F-CECB-4D94-AB47-56AFFC22D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173C714F-CECB-4D94-AB47-56AFFC22D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C06DD1C-3696-4529-B1CF-E15996709DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C06DD1C-3696-4529-B1CF-E15996709DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C06DD1C-3696-4529-B1CF-E15996709DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C06DD1C-3696-4529-B1CF-E15996709DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {059B56BB-2D9E-4274-9B39-7DC0FB040B44}
+	EndGlobalSection
+EndGlobal
